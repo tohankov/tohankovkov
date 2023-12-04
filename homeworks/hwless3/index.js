@@ -74,22 +74,22 @@ console.log(
 );
 
 // Запитати у користувача два числа
-let num1 = parseInt(prompt("Введіть перше число:"));
-let num2 = parseInt(prompt("Введіть друге число:"));
+let num3 = parseInt(prompt("Введіть перше число:"));
+let num4 = parseInt(prompt("Введіть друге число:"));
 
 // Визначити менше з двох чисел
-let min = num1 < num2 ? num1 : num2;
+let min = num3 < num4 ? num3 : num4;
 
 // Знайти найбільший спільний дільник
 let gcd;
 for (let i = 1; i <= min; i++) {
-  if (num1 % i === 0 && num2 % i === 0) {
+  if (num3 % i === 0 && num4 % i === 0) {
     gcd = i;
   }
 }
 
 console.log(
-  `Найбільший спільний дільник чисел ${num1} і ${num2} дорівнює: ${gcd}`
+  `Найбільший спільний дільник чисел ${num3} і ${num4} дорівнює: ${gcd}`
 );
 
 // Запитати у користувача число
